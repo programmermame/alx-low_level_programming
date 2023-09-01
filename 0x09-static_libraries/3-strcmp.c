@@ -1,3 +1,3 @@
 #include "main.h"
-void _puts(char *str)
+int _strcmp(char *s1, char *s2)
 {}
