@@ -12,7 +12,9 @@ shash_table_t *shash_table_create(unsigned long int size)
 	shash_table_t *ht = malloc(sizeof(shash_table_t));
 
 	if (ht == NULL)
+	{
 		return (NULL);
+	}	
 	ht->size = size;
 	ht->shead = NULL;
 	ht->stail = NULL;
